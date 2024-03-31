@@ -6,7 +6,6 @@ import os
 
 api_key = os.getenv('SECRET_API_KEY')
 
-
 # Create your views here.
 def index(request):
     url = api_key
