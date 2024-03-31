@@ -6,7 +6,6 @@ import os
 
 api_key = os.getenv('SECRET_API_KEY')
 
-# 'http://api.openweathermap.org/data/2.5/weather?q={}&units=imperial&appid=6b558fe3982f97c8a25227d68abb0c96'
 
 # Create your views here.
 def index(request):
